@@ -1,0 +1,160 @@
+{
+    "intents": [
+      {
+        "tag": "welcome",
+        "patterns": ["Oi", "bom dia", "boa tarde", "boa noite", "good morning", "Hi", "hello", "Olá"],
+        "responses": ["Olá, eu sou sua assistente virtual, em que posso te ajudar?"],
+        "context": [""]
+      },
+      {
+        "tag": "who_are_you",
+        "patterns": ["qual seu nome?", "quem é você?", "como você chama?", "nome?"],
+        "responses": ["Eu sou uma assistente virtual, ainda não tenho nome."],
+        "context": [""]
+      },
+      {
+        "tag": "love",
+        "patterns": ["te amo", "linda", "querida", "casa comigo?", "maravilhosa"],
+        "responses": ["Awwwn, muito obrigada <3"],
+        "context": [""]
+      },
+      {
+        "tag": "censored",
+        "patterns": ["feia", "boba", "chata", "vai pro inferno", "puta", "quer casar comigo?", "sua gostosa"],
+        "responses": ["Não toleramos nenhum tipo de assédio."],
+        "context": [""]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["obrigada", "tks", "thank you", "valeu", "obrigada pela ajuda", "muito obrigada"],
+        "responses": ["De nada ;)", "Agradeço seu contato, volte sempre!"],
+        "context": [""]
+      },
+      {
+        "tag": "anything_else",
+        "patterns": [],
+        "responses": ["Desculpa, não entendi o que você falou, tente novamente!"],
+        "context": [""]
+      },
+      {
+        "tag": "what_is_astronomy",
+        "patterns": ["O que é astronomia?", "defina astronomia", "me explique astronomia"],
+        "responses": ["Astronomia é a ciência que estuda os corpos celestes, como estrelas, planetas, galáxias e o universo como um todo."],
+        "context": [""]
+    },
+    {
+        "tag": "solar_system",
+        "patterns": ["Quantos planetas existem no sistema solar?", "fale sobre o sistema solar", "nomes dos planetas"],
+        "responses": ["O sistema solar tem 8 planetas: Mercúrio, Vênus, Terra, Marte, Júpiter, Saturno, Urano e Netuno."],
+        "context": [""]
+    },
+    {
+        "tag": "sun",
+        "patterns": ["Qual é o tamanho do Sol?", "fale sobre o Sol", "o que é o Sol?"],
+        "responses": ["O Sol é uma estrela, tem cerca de 1,4 milhão de km de diâmetro e é a fonte de energia do sistema solar."],
+        "context": [""]
+    },
+    {
+        "tag": "planets",
+        "patterns": ["Qual é o maior planeta?", "quantos planetas são?", "planetas mais importantes"],
+        "responses": ["O maior planeta do sistema solar é Júpiter. Ele é tão grande que caberiam mais de 1.300 Terras dentro dele!"],
+        "context": [""]
+    },
+    {
+        "tag": "stars",
+        "patterns": ["O que são estrelas?", "como nascem estrelas?", "fale sobre estrelas"],
+        "responses": ["Estrelas são enormes esferas de plasma que emitem luz e calor devido à fusão nuclear em seus núcleos."],
+        "context": [""]
+    },
+    {
+        "tag": "galaxies",
+        "patterns": ["O que são galáxias?", "qual a galáxia mais famosa?", "quantas galáxias existem?"],
+        "responses": ["Galáxias são enormes sistemas de estrelas, planetas, gás e poeira. A Via Láctea é a galáxia em que vivemos."],
+        "context": [""]
+    },
+    {
+        "tag": "black_holes",
+        "patterns": ["O que é um buraco negro?", "como se formam buracos negros?", "fale sobre buracos negros"],
+        "responses": ["Buracos negros são regiões do espaço com gravidade tão intensa que nem a luz pode escapar."],
+        "context": [""]
+    },
+    {
+        "tag": "big_bang",
+        "patterns": ["O que é o Big Bang?", "como começou o universo?", "fale sobre o início do universo"],
+        "responses": ["O Big Bang é a teoria que descreve o início do universo como uma grande explosão de energia há cerca de 13,8 bilhões de anos."],
+        "context": [""]
+    },
+    {
+        "tag": "moon",
+        "patterns": ["Fale sobre a Lua", "qual a distância da Lua?", "a Lua é um planeta?"],
+        "responses": ["A Lua é o único satélite natural da Terra e está a cerca de 384.400 km de distância do nosso planeta."],
+        "context": [""]
+    },
+    {
+        "tag": "space_exploration",
+        "patterns": ["O que é exploração espacial?", "fale sobre exploração espacial", "viagens espaciais"],
+        "responses": ["Exploração espacial envolve o estudo do espaço por meio de telescópios, satélites, sondas e missões tripuladas."],
+        "context": [""]
+    },
+    {
+        "tag": "life_in_space",
+        "patterns": ["Existe vida fora da Terra?", "vida alienígena é real?", "ETs existem?"],
+        "responses": ["Ainda não há evidências conclusivas de vida fora da Terra, mas a busca por ela continua."],
+        "context": [""]
+    },
+    {
+        "tag": "satellites",
+        "patterns": ["O que são satélites?", "quantos satélites existem?", "fale sobre satélites"],
+        "responses": ["Satélites são objetos que orbitam planetas ou estrelas. Eles podem ser naturais, como a Lua, ou artificiais, como os usados em telecomunicações."],
+        "context": [""]
+    },
+    {
+        "tag": "telescopes",
+        "patterns": ["O que é um telescópio?", "como funciona um telescópio?", "fale sobre telescópios"],
+        "responses": ["Telescópios são instrumentos usados para observar objetos distantes no universo, ampliando a luz que vem deles."],
+        "context": [""]
+    },
+    {
+        "tag": "comets",
+        "patterns": ["O que são cometas?", "como os cometas se formam?", "fale sobre cometas"],
+        "responses": ["Cometas são corpos celestes compostos de gelo, poeira e rochas. Quando se aproximam do Sol, desenvolvem caudas brilhantes."],
+        "context": [""]
+    },
+    {
+        "tag": "asteroids",
+        "patterns": ["O que são asteroides?", "fale sobre asteroides", "asteroides são perigosos?"],
+        "responses": ["Asteroides são corpos rochosos que orbitam o Sol. Alguns podem colidir com planetas, mas impactos significativos são raros."],
+        "context": [""]
+    },
+    {
+        "tag": "mars",
+        "patterns": ["Fale sobre Marte", "Marte tem vida?", "o que sabemos sobre Marte?"],
+        "responses": ["Marte é conhecido como o 'planeta vermelho'. É um dos principais alvos na busca por vida fora da Terra."],
+        "context": [""]
+    },
+    {
+        "tag": "venus",
+        "patterns": ["Fale sobre Vênus", "o que sabemos sobre Vênus?", "Vênus é habitável?"],
+        "responses": ["Vênus é o segundo planeta mais próximo do Sol e tem temperaturas extremamente altas devido ao efeito estufa."],
+        "context": [""]
+    },
+    {
+        "tag": "jupiter",
+        "patterns": ["Qual é o maior planeta?", "Fale sobre Júpiter", "quantas luas Júpiter tem?"],
+        "responses": ["Júpiter é o maior planeta do sistema solar e possui mais de 80 luas conhecidas."],
+        "context": [""]
+    },
+    {
+        "tag": "neptune",
+        "patterns": ["Fale sobre Netuno", "Netuno é azul?", "o que sabemos sobre Netuno?"],
+        "responses": ["Netuno é o planeta mais distante do Sol e tem uma cor azul devido à presença de metano na atmosfera."],
+        "context": [""]
+    },
+    {
+        "tag": "space_facts",
+        "patterns": ["Me diga algo curioso sobre o espaço", "fatos sobre o universo", "curiosidades espaciais"],
+        "responses": ["Um dia em Vênus é mais longo que um ano em Vênus!"],
+        "context": [""]
+    }
+    ]
+  }
