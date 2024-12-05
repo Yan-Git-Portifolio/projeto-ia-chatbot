@@ -18,11 +18,6 @@ Este é um projeto de chatbot baseado em BERTimbau, modificado para lidar com va
 ### 4. **Acentuação**:
    - **Nota**: A normalização de acentuação não foi aplicada no projeto, pois, no meu sistema operacional (Linux), não houve problemas com a acentuação das palavras. Isso garante que palavras com acentos, como "Vênus", sejam corretamente reconhecidas sem a necessidade de remoção dos acentos.
 
-## Funcionalidades
-
-- **Neutralização de Gênero**: O chatbot trata palavras de forma neutra, sem diferenciar entre masculino e feminino, facilitando a comunicação e garantindo mais inclusão.
-- **Tokenização e Remoção de Stopwords**: O chatbot remove artigos definidos (ex: "a", "o", "as", "os") para focar nas palavras principais da frase.
-
 ## Tema do Chatbot
 
 O tema do nosso chatbot é **astronomia**, escolhido porque achamos o assunto fascinante e acreditamos que ele oferece um vasto leque de tópicos interessantes para interações. O chatbot foi projetado para responder a perguntas sobre planetas, estrelas, constelações, fenômenos astronômicos e outros tópicos relacionados à astronomia de maneira acessível e inclusiva.
